@@ -1,0 +1,308 @@
+/* CSS for mobile version */
+body {
+    margin: 0%;
+    width: 100%;
+    font-family: Montserrat;
+    background-image: url(images/div-background.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.menu-logo-container {
+    display: flex;
+    margin-bottom: 40%;
+}
+
+.logo-holder {
+    float: left;
+    justify-content: center;
+}
+
+.logo img {
+    float: left;
+    cursor: pointer;
+    height: 90px;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 55%;
+}
+
+.content-container {
+    margin: 15%;
+    text-align: center;
+}
+
+.content-container p {
+    margin: 0px;
+}
+
+.sub-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-heading {
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: #FF0000;
+    font-family: Aristotelica Text Trial;
+    font-weight: bolder;
+    font-size: 110px;
+}
+
+.short-description {
+    padding-top: 40px;
+    font-size: 14px;
+
+}
+
+.see_more-btn {
+    cursor: pointer;
+    font-size: 12px;
+    font-family: inherit;
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/* CSS for tablet view */
+@media only screen and (min-width:820px) {
+    
+    body {
+        margin: 0%;
+        width: 100%;
+        font-family: Montserrat;
+        background-image: url(images/div-background.jpg);
+        position:absolute;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top right;
+    }
+    
+    .menu-logo-container {
+        display: flex;
+        margin-bottom: 20%;
+    }
+    
+    .logo-holder {
+        float: left;
+        justify-content: center;
+    }
+    
+    .logo img {
+        float: left;
+        cursor: pointer;
+        height: 90px;
+        width: 100px;
+        border-radius: 10%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        margin-left: 70px;
+        margin-top: 45px;
+        display: block;
+        flex: 1;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding-top: 2%;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 14x;
+        list-style: none;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    a {
+        display: inline-block;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }    
+    
+    
+    .content-container {
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .content-container p {
+        margin: 0px;
+    }
+    
+    .sub-heading {
+        font-weight: bold;
+        font-size: 40px;
+        color: yellow;
+    }
+    
+    .main-heading {
+        margin-top: 15px;
+        letter-spacing: 23px;
+        color: #FF0000;
+        font-family: Aristotelica Text Trial;
+        font-weight: bolder;
+        font-size: 180px;
+    }
+    
+    .short-description {
+        padding-top: 80px;
+        font-size: 18px;    
+    }
+    
+    .see_more-btn {
+        cursor: pointer;
+        font-size: 18px;
+        font-family: inherit;
+        margin-top: 70px;
+        width: 180px;
+        height: 60px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+    
+}
+
+
+
+/* CSS for desktop version */
+@media only screen and (min-width: 1280px) {
+
+    body {
+        margin: 0%;
+        width: 100%;
+        font-family: Montserrat;
+        background-image: url(images/background-image.png);
+        background-size: cover;
+        height: 100%;
+    }
+
+    .main-container {
+        border-radius: 1%;
+        background-image: url(images/div-background.jpg);
+        width: 98%;
+        height: 95%;
+        margin: 1%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .menu-logo-container {
+        display: flex;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .logo-holder {
+        display: flex;
+        justify-content: center;
+        flex: 0.6;
+    }
+
+    .logo img {
+        cursor: pointer;
+        height: 90px;
+        width: 100px;
+        border-radius: 10%;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        flex: 1;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding-top: 0%;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 14x;
+        list-style: none;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    a {
+        display: inline-block;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .content-container {
+        text-align: left;
+        margin-left: 14%;
+    }
+
+    .content-container p {
+        margin: 0px;
+    }
+
+    .sub-heading {
+        font-weight: bold;
+        font-size: 25px;
+        color: black;
+    }
+
+    .main-heading {
+        letter-spacing: 11px;
+        color: #FF0000;
+        font-family: Aristotelica Text Trial;
+        font-weight: bolder;
+        font-size: 120px;
+        position: absolute;
+    }
+
+    .short-description {
+        padding-top: 102px;
+        font-size: 14px;
+        width: 30%;
+
+    }
+
+    .see_more-btn {
+        cursor: pointer;
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+}
